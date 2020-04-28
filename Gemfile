@@ -2,4 +2,5 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem 'activerecord', ">=3"
-gem 'standalon
+gem 'standalone_migrations'
+
