@@ -4,4 +4,6 @@ gem 'rake'
 gem 'activerecord', ">=3"
 gem 'standalone_migrations'
 
-group :developmen
+group :development do
+  gem 'pg'
+end
