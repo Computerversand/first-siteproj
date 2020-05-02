@@ -7,3 +7,6 @@ gem 'standalone_migrations'
 group :development do
   gem 'pg'
 end
+
+group :test do
+  
