@@ -12,3 +12,23 @@ Installing
 ----------
 
 Install bundler:
+
+	`$ gem install bundler`
+
+Enter the cloned dir and fetch dependencies:
+
+	`$ bundle install`
+
+Edit config/database.yml and run the installer:
+
+    `$./bin/bovespa-parser install`
+
+Running
+-------
+
+Run the application with real BM&F Bovespa historical file, just use the 'import' command and pass the file path as argument, for instance:
+
+  `$ ./bin/bovespa-parser import sample/DemoHistoricalStockExchange12022003.txt`
+	
+Testing
+-------
