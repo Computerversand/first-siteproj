@@ -52,3 +52,21 @@ Contributing
 4. Run tests with `rake` to verify that test fails.
 5. Implement your feature or bug fix.
 6. Ensure tests pass.
+7. If it's a new feature or a bug fix, please add an entry to the changelog file.
+8. Add, commit, and push your changes.
+9. [Submit a pull request.][pr]
+
+[fork]: https://help.github.com/articles/fork-a-repo
+[branch]: http://learn.github.com/p/branching.html
+[pr]: https://help.github.com/articles/using-pull-requests
+
+Prerequisites
+-------------
+
+Tested with Ruby 1.9.3.
+
+It uses Postgres as development database instead of Sqlite3 because it is faster to import several stock quotations (1000+).
+
+
+Boring legal stuff
+------------------
