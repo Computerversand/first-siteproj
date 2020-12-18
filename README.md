@@ -32,3 +32,23 @@ Run the application with real BM&F Bovespa historical file, just use the 'import
 	
 Testing
 -------
+
+Simply do:
+  `$ rake`
+
+Getting real historical data files
+----------------------------------
+
+To get daily historical stock quotation data files, just go BM&F Bovespa website and download it (or follow this shortcut URI: [BM&F Bovespa Historical Files](http://www.bmfbovespa.com.br/shared/iframe.aspx?idioma=pt-br&url=http://www.bmfbovespa.com.br/pt-br/cotacoes-historicas/FormSeriesHistoricas.asp) ). A login is necessary and fill in a captcha field.
+
+Contributing
+------------
+
+## Submitting a Pull Request
+
+1. [Fork the repository.][fork]
+2. [Create a topic branch.][branch]
+3. Write a failing test to capture existing bug or lack of feature.
+4. Run tests with `rake` to verify that test fails.
+5. Implement your feature or bug fix.
+6. Ensure tests pass.
