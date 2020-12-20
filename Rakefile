@@ -26,3 +26,8 @@ task default: "test:rspec"
 task :build do
   system "gem build bovespa_ingestion.gemspec"
 end
+
+require 'historical_quotes/version' 
+task :release => :build do
+  system "gem push bundler-#{HistoricoAtivos::VERSION}.gem"
+end
