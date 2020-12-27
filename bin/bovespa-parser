@@ -12,3 +12,24 @@ module HistoricQuotes
     puts "      bovespa-parser command [options]"
     puts ""
     puts "  Options:"
+    puts "      -h [--help, --usage, -?] # Show this help message and quit"
+    puts "      -i [install]           # Install pre-requisites, test database connection and create tables"
+    puts "      import [filename] # Import historical stock quotes from specified file"
+    puts "  Examples:"
+    puts "      bovespa-parser install"
+    puts "      bovespa-parser import sample/sample_cota_hist_2003.txt"
+    puts ""
+    puts "  For more informations:"
+    puts "      https://github.com/seixasfelipe/bovespa-ingestion"
+  
+  when 'install', '-i'
+    begin
+      require 'rake'
+      StandaloneMigrations::Tasks.load_tasks
+      unless FileTest::directory?('db')
+        Dir.mkdir('db')
+      end
+
+      migrate_path = File.expand_path("../../db/migrate", __FILE__)
+      paths = Rails.application.config.paths
+      paths.add "db/migrate", :with => migrate_path
