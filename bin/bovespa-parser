@@ -46,3 +46,19 @@ module HistoricQuotes
       else
 
         sample_file = ARGV[1]
+
+        puts "Loading file historical data: #{sample_file}"
+
+        start_time = Time.now
+
+        loader = LoadHist.new ParserHeader.new, ParserTrailer.new, ParserStockQuote.new
+        historic = loader.load sample_file 
+
+        puts "Total stock quotes loaded: #{historic.stock_quotes.length}"
+
+        loader.persist historic
+
+        end_time = Time.now 
+        elapsed_time = (end_time - start_time) * 1000.0
+
+        puts "Historical data loaded in #{elapsed_time} ms!"
