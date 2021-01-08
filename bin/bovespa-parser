@@ -33,3 +33,16 @@ module HistoricQuotes
       migrate_path = File.expand_path("../../db/migrate", __FILE__)
       paths = Rails.application.config.paths
       paths.add "db/migrate", :with => migrate_path
+      
+      Rake::Task['db:migrate'].invoke
+      # system("rake db:migrate")
+      puts "Installation complete"
+    rescue
+      puts "There were errors in the installation"
+    end
+  when 'import'
+      if ARGV.size == 1
+        puts "Please specify the file"
+      else
+
+        sample_file = ARGV[1]
