@@ -62,3 +62,8 @@ module HistoricQuotes
         elapsed_time = (end_time - start_time) * 1000.0
 
         puts "Historical data loaded in #{elapsed_time} ms!"
+      end
+
+  end
+
+end
