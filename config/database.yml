@@ -15,3 +15,11 @@ production:
   database: somedatabase_dev
   pool: 5
   username: root
+  password:
+  socket: /var/run/mysqld/mysqld.sock
+
+test: &test
+  adapter: sqlite3
+  database: db/test.sqlite3
+  pool: 5
+  timeout: 5000
