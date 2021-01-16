@@ -1,0 +1,17 @@
+
+development:
+  adapter: postgresql
+  database: bovespa_ingestion
+  host: localhost
+  username: root
+  password:
+  encoding: unicode
+  pool: 5
+
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: somedatabase_dev
+  pool: 5
+  username: root

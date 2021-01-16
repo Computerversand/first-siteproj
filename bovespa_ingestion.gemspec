@@ -22,3 +22,4 @@ Gem::Specification.new 'bovespa_ingestion', HistoricQuotes::VERSION do |s|
 
   s.add_dependency 'activerecord', '>= 3'
   s.add_dependency 'standalone_migrations'
+end
