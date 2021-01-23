@@ -1,1 +1,1 @@
-class CreateStoc
+class CreateStockQuotes < Acti
