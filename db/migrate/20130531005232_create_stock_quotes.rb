@@ -1,1 +1,1 @@
-class CreateStockQuotes < Acti
+class CreateStockQuotes < ActiveRecord::M
