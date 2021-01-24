@@ -1,1 +1,2 @@
-class CreateStockQuotes < ActiveRecord::M
+class CreateStockQuotes < ActiveRecord::Migration
+  def self.
