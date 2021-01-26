@@ -1,2 +1,3 @@
 class CreateStockQuotes < ActiveRecord::Migration
-  def self.
+  def self.up
+    create_tabl
