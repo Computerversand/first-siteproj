@@ -4,4 +4,5 @@ class CreateStockQuotes < ActiveRecord::Migration
       t.date :date
       t.string :bdi_code
       t.string :ticker_symbol
-      t.string :market_t
+      t.string :market_type
+      t.st
