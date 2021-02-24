@@ -6,4 +6,5 @@ class CreateStockQuotes < ActiveRecord::Migration
       t.string :ticker_symbol
       t.string :market_type
       t.string :name
-      t.string :specific
+      t.string :specification
+    
