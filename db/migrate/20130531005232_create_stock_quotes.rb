@@ -7,4 +7,5 @@ class CreateStockQuotes < ActiveRecord::Migration
       t.string :market_type
       t.string :name
       t.string :specification
-      t.string :cu
+      t.string :currency_ref
+  
