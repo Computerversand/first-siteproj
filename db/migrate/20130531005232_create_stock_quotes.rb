@@ -8,4 +8,4 @@ class CreateStockQuotes < ActiveRecord::Migration
       t.string :name
       t.string :specification
       t.string :currency_ref
-  
+      t.decimal :op
