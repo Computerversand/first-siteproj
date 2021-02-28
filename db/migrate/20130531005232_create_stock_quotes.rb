@@ -9,4 +9,5 @@ class CreateStockQuotes < ActiveRecord::Migration
       t.string :specification
       t.string :currency_ref
       t.decimal :opening_price
-      t.decimal :
+      t.decimal :highest_price
+    
