@@ -11,3 +11,4 @@ class CreateStockQuotes < ActiveRecord::Migration
       t.decimal :opening_price
       t.decimal :highest_price
       t.decimal :lowest_price
+      t.decimal :a
