@@ -15,4 +15,4 @@ class CreateStockQuotes < ActiveRecord::Migration
       t.decimal :close_price
       t.decimal :best_purchase_price
       t.decimal :best_sell_price
-      
+      t.decimal :total_
