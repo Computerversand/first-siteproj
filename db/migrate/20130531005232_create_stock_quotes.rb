@@ -17,4 +17,4 @@ class CreateStockQuotes < ActiveRecord::Migration
       t.decimal :best_sell_price
       t.decimal :total_trading
       t.decimal :total_trading_share
-      t.
+      t.decimal :trading_volu
