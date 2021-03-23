@@ -19,4 +19,5 @@ class CreateStockQuotes < ActiveRecord::Migration
       t.decimal :total_trading_share
       t.decimal :trading_volume
       t.integer :prazo_termo
-      t.integer :historical_s
+      t.integer :historical_stock_quote_id
+      
