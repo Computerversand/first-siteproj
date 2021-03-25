@@ -20,4 +20,7 @@ class CreateStockQuotes < ActiveRecord::Migration
       t.decimal :trading_volume
       t.integer :prazo_termo
       t.integer :historical_stock_quote_id
-      
+      t.timestamps
+    end
+
+  
