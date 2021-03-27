@@ -23,4 +23,4 @@ class CreateStockQuotes < ActiveRecord::Migration
       t.timestamps
     end
 
-    add_index :stock_quotes, :histo
+    add_index :stock_quotes, :historical_stock_qu
