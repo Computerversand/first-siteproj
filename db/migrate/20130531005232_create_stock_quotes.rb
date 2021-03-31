@@ -26,4 +26,4 @@ class CreateStockQuotes < ActiveRecord::Migration
     add_index :stock_quotes, :historical_stock_quote_id
   end
 
-  def 
+  def self.dow
