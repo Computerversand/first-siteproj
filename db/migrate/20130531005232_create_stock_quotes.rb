@@ -26,4 +26,5 @@ class CreateStockQuotes < ActiveRecord::Migration
     add_index :stock_quotes, :historical_stock_quote_id
   end
 
-  def self.dow
+  def self.down
+    drop_ta
