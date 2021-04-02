@@ -27,4 +27,4 @@ class CreateStockQuotes < ActiveRecord::Migration
   end
 
   def self.down
-    drop_ta
+    drop_table :stock_quo
