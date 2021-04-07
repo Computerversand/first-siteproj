@@ -1,1 +1,1 @@
-class AddPrecisionAnd
+class AddPrecisionAndScaleToDecimals <
