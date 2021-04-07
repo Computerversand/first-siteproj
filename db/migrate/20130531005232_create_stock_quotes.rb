@@ -27,4 +27,6 @@ class CreateStockQuotes < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :stock_quo
+    drop_table :stock_quotes
+  end
+end
