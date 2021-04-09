@@ -1,1 +1,1 @@
-class AddPrecisionAndScaleToDecimals <
+class AddPrecisionAndScaleToDecimals < ActiveRecord::Migr
