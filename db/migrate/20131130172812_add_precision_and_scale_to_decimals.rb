@@ -1,2 +1,3 @@
 class AddPrecisionAndScaleToDecimals < ActiveRecord::Migration
-  def self.u
+  def self.up
+    change_
