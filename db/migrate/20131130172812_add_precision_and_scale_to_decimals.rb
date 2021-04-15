@@ -1,3 +1,3 @@
 class AddPrecisionAndScaleToDecimals < ActiveRecord::Migration
   def self.up
-    change_
+    change_column :stock_quo
