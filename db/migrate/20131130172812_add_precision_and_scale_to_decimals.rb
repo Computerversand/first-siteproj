@@ -1,3 +1,3 @@
 class AddPrecisionAndScaleToDecimals < ActiveRecord::Migration
   def self.up
-    change_column :stock_quotes, :openin
+    change_column :stock_quotes, :opening_price, :dec
