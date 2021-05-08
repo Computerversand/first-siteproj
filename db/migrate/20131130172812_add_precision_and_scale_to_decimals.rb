@@ -4,4 +4,4 @@ class AddPrecisionAndScaleToDecimals < ActiveRecord::Migration
     change_column :stock_quotes, :highest_price, :decimal, :precision => 10, :scale => 2
     change_column :stock_quotes, :lowest_price, :decimal, :precision => 10, :scale => 2
     change_column :stock_quotes, :average_price, :decimal, :precision => 10, :scale => 2
-   
+    change_column
