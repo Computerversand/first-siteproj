@@ -8,4 +8,4 @@ class AddPrecisionAndScaleToDecimals < ActiveRecord::Migration
     change_column :stock_quotes, :best_purchase_price, :decimal, :precision => 10, :scale => 2
     change_column :stock_quotes, :best_sell_price, :decimal, :precision => 10, :scale => 2
     change_column :stock_quotes, :total_trading, :decimal, :precision => 10, :scale => 2
-    change_column :stock_quotes, :total_tradin
+    change_column :stock_quotes, :total_trading_share, :decimal, :preci
