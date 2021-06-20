@@ -12,3 +12,5 @@ class AddPrecisionAndScaleToDecimals < ActiveRecord::Migration
     change_column :stock_quotes, :trading_volume, :decimal, :precision => 10, :scale => 2
   end
 
+  def self.down
+ 
