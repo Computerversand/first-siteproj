@@ -13,4 +13,5 @@ class AddPrecisionAndScaleToDecimals < ActiveRecord::Migration
   end
 
   def self.down
-    change_column :stock_quotes, :opening_price, :decima
+    change_column :stock_quotes, :opening_price, :decimal
+    change_colu
