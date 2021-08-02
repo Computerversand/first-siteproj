@@ -22,4 +22,4 @@ class AddPrecisionAndScaleToDecimals < ActiveRecord::Migration
     change_column :stock_quotes, :best_sell_price, :decimal
     change_column :stock_quotes, :total_trading, :decimal
     change_column :stock_quotes, :total_trading_share, :decimal
-    change_column :stock_quotes, :tr
+    change_column :stock_quotes, :trading_volum
