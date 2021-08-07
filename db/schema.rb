@@ -1,2 +1,2 @@
 # encoding: UTF-8
-# This file is auto-ge
+# This file is auto-generated from the curr
