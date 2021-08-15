@@ -4,4 +4,4 @@
 # incrementally modify your database, and then regenerate this schema definition.
 #
 # Note that this schema.rb definition is the authoritative source for your
-# database s
+# database schema. If you nee
