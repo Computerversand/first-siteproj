@@ -11,4 +11,4 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-A
+ActiveRecord::Schema.defi
