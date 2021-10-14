@@ -13,4 +13,4 @@
 
 ActiveRecord::Schema.define(:version => 20131130172812) do
 
-  create_t
+  create_table "histori
