@@ -13,4 +13,5 @@
 
 ActiveRecord::Schema.define(:version => 20131130172812) do
 
-  create_table "historical_stock_quotes", :force => true do |t
+  create_table "historical_stock_quotes", :force => true do |t|
+    t.strin
