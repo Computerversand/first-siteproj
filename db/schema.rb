@@ -16,4 +16,5 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
   create_table "historical_stock_quotes", :force => true do |t|
     t.string   "filename"
     t.string   "origin_code"
-    t.date     "created_
+    t.date     "created_date"
+    t.in
