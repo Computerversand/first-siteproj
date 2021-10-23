@@ -18,4 +18,4 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
     t.string   "origin_code"
     t.date     "created_date"
     t.integer  "stock_quotes_qty"
-    t.da
+    t.datetime "created_at
