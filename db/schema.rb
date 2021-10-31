@@ -22,4 +22,4 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
     t.datetime "updated_at",       :null => false
   end
 
-  create_table "stock_quotes", 
+  create_table "stock_quotes", :force => true do |
