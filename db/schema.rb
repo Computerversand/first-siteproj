@@ -23,4 +23,5 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
   end
 
   create_table "stock_quotes", :force => true do |t|
-    t.d
+    t.date     "date"
+    
