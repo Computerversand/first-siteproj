@@ -25,4 +25,4 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
   create_table "stock_quotes", :force => true do |t|
     t.date     "date"
     t.string   "bdi_code"
-   
+    t.string   "tick
