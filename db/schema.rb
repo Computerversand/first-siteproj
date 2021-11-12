@@ -28,4 +28,4 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
     t.string   "ticker_symbol"
     t.string   "market_type"
     t.string   "name"
-    t.string  
+    t.string   "specificatio
