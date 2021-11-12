@@ -27,3 +27,4 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
     t.string   "bdi_code"
     t.string   "ticker_symbol"
     t.string   "market_type"
+    t.string   "na
