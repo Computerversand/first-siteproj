@@ -29,4 +29,5 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
     t.string   "market_type"
     t.string   "name"
     t.string   "specification"
-    t.string   "
+    t.string   "currency_ref"
+    t.decim
