@@ -30,4 +30,4 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
     t.string   "name"
     t.string   "specification"
     t.string   "currency_ref"
-    t.decim
+    t.decimal  "opening_
