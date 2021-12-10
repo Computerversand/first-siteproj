@@ -32,4 +32,4 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
     t.string   "currency_ref"
     t.decimal  "opening_price",             :precision => 10, :scale => 2
     t.decimal  "highest_price",             :precision => 10, :scale => 2
-    t.decimal  "lowest_price",
+    t.decimal  "lowest_price",             
