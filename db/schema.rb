@@ -36,4 +36,4 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
     t.decimal  "average_price",             :precision => 10, :scale => 2
     t.decimal  "close_price",               :precision => 10, :scale => 2
     t.decimal  "best_purchase_price",       :precision => 10, :scale => 2
- 
+    t.deci
