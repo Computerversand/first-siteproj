@@ -38,4 +38,5 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
     t.decimal  "best_purchase_price",       :precision => 10, :scale => 2
     t.decimal  "best_sell_price",           :precision => 10, :scale => 2
     t.decimal  "total_trading",             :precision => 10, :scale => 2
-    t.decimal  "total_trading_share",       :precision => 10, :sc
+    t.decimal  "total_trading_share",       :precision => 10, :scale => 2
+  
