@@ -41,4 +41,5 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
     t.decimal  "total_trading_share",       :precision => 10, :scale => 2
     t.decimal  "trading_volume",            :precision => 10, :scale => 2
     t.integer  "prazo_termo"
-    t.integer  "historical_stock_quo
+    t.integer  "historical_stock_quote_id"
+    t.d
