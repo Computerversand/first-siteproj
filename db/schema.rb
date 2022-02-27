@@ -44,4 +44,6 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
     t.integer  "historical_stock_quote_id"
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
-  e
+  end
+
+  add
