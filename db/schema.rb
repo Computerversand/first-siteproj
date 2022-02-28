@@ -46,4 +46,4 @@ ActiveRecord::Schema.define(:version => 20131130172812) do
     t.datetime "updated_at",                :null => false
   end
 
-  add_index "stock_quotes", ["historical_stock_quote_
+  add_index "stock_quotes", ["historical_stock_quote_id"], :nam
