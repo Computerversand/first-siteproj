@@ -1,2 +1,3 @@
 module HistoricQuotes
-  class 
+  class Header
+    attr_acc
