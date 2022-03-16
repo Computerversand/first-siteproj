@@ -1,1 +1,2 @@
-module Histor
+module HistoricQuotes
+  class Lo
