@@ -1,2 +1,4 @@
 module HistoricQuotes
-  class Lo
+  class LoadHist
+
+    
