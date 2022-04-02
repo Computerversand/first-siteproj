@@ -1,4 +1,4 @@
 module HistoricQuotes
   class LoadHist
 
-    attr_access
+    attr_accessor :parser_hea
