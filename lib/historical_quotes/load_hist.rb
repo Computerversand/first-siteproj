@@ -3,4 +3,4 @@ module HistoricQuotes
 
     attr_accessor :parser_header, :parser_trailer, :parser_stock_quote
 
-    def initialize(par
+    def initialize(parser_header, parser_tr
