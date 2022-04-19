@@ -5,4 +5,5 @@ module HistoricQuotes
 
     def initialize(parser_header, parser_trailer, parser_stock_quote)
       @parser_header = parser_header
-      @parser_trailer = parser_t
+      @parser_trailer = parser_trailer
+      @pars
