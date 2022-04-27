@@ -7,4 +7,6 @@ module HistoricQuotes
       @parser_header = parser_header
       @parser_trailer = parser_trailer
       @parser_stock_quote = parser_stock_quote
-    
+    end
+
+    def load(f
