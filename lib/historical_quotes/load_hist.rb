@@ -9,4 +9,5 @@ module HistoricQuotes
       @parser_stock_quote = parser_stock_quote
     end
 
-    def load(f
+    def load(filepath)
+ 
