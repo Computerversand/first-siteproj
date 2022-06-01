@@ -10,4 +10,4 @@ module HistoricQuotes
     end
 
     def load(filepath)
-      return fa
+      return false unless File.
