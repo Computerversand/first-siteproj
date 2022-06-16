@@ -10,4 +10,5 @@ module HistoricQuotes
     end
 
     def load(filepath)
-      return false unless File.
+      return false unless File.exists?(filepath)
+     
