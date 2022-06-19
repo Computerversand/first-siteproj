@@ -14,4 +14,4 @@ module HistoricQuotes
       
       file = File.open(filepath, "r")
 
-      historical
+      historical_quotes = Histori
