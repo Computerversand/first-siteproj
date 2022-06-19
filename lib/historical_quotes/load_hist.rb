@@ -13,3 +13,5 @@ module HistoricQuotes
       return false unless File.exists?(filepath)
       
       file = File.open(filepath, "r")
+
+      historical
