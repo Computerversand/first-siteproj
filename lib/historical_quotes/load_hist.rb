@@ -17,4 +17,4 @@ module HistoricQuotes
       historical_quotes = HistoricalStockQuote.new
 
       file.each { |line|
-        h
+        historical_quot
