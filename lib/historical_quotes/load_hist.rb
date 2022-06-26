@@ -17,4 +17,4 @@ module HistoricQuotes
       historical_quotes = HistoricalStockQuote.new
 
       file.each { |line|
-        historical_quot
+        historical_quotes.import_header @pa
