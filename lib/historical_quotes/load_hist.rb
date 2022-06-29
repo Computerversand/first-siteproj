@@ -17,4 +17,4 @@ module HistoricQuotes
       historical_quotes = HistoricalStockQuote.new
 
       file.each { |line|
-        historical_quotes.import_header @pa
+        historical_quotes.import_header @parser_header.pars
