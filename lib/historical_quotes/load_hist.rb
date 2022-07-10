@@ -17,4 +17,5 @@ module HistoricQuotes
       historical_quotes = HistoricalStockQuote.new
 
       file.each { |line|
-        historical_quotes.import_header @parser_header.parse(line) if line.sta
+        historical_quotes.import_header @parser_header.parse(line) if line.start_with?("00")
+ 
