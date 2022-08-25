@@ -19,4 +19,4 @@ module HistoricQuotes
       file.each { |line|
         historical_quotes.import_header @parser_header.parse(line) if line.start_with?("00")
         historical_quotes.stock_quotes << @parser_stock_quote.parse(line) if line.start_with?("01")
-        historical_quotes.impo
+        historical_quotes.import_trailer @p
