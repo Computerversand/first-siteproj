@@ -20,4 +20,6 @@ module HistoricQuotes
         historical_quotes.import_header @parser_header.parse(line) if line.start_with?("00")
         historical_quotes.stock_quotes << @parser_stock_quote.parse(line) if line.start_with?("01")
         historical_quotes.import_trailer @parser_trailer.parse(line) if line.start_with?("99")
-     
+      }
+
+      historica
