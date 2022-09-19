@@ -22,4 +22,5 @@ module HistoricQuotes
         historical_quotes.import_trailer @parser_trailer.parse(line) if line.start_with?("99")
       }
 
-      historica
+      historical_quotes
+    e
