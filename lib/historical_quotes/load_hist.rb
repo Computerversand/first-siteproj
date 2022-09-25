@@ -23,4 +23,6 @@ module HistoricQuotes
       }
 
       historical_quotes
-    e
+    end
+
+    def persi
