@@ -25,4 +25,4 @@ module HistoricQuotes
       historical_quotes
     end
 
-    def persi
+    def persist(historical_
