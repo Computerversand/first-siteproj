@@ -26,4 +26,5 @@ module HistoricQuotes
     end
 
     def persist(historical_quotes)
-      hist
+      historical_quotes.save
+  
