@@ -22,3 +22,18 @@ module HistoricQuotes
       stock_quote.highest_price = read_highest_price row
       stock_quote.lowest_price = read_lowest_price row
       stock_quote.average_price = read_average_price row
+      stock_quote.close_price = read_close_price row
+      stock_quote.best_purchase_price = read_best_purchase_price row
+      stock_quote.best_sell_price = read_best_sell_price row
+      stock_quote.total_trading = read_total_trading row
+      stock_quote.total_trading_share= read_total_trading_share row
+      stock_quote.trading_volume = read_trading_volume row
+      stock_quote
+    end
+
+    def read_data(row)
+      year = row[2..5]
+      month = row[6..7]
+      day = row[8..9]
+      Date.new(year.to_i, month.to_i, day.to_i)
+    end
