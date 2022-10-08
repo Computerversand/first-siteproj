@@ -28,4 +28,5 @@ module HistoricQuotes
     def persist(historical_quotes)
       historical_quotes.save
     end
-  en
+  end
+end
