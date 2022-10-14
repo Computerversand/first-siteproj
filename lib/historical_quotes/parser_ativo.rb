@@ -63,3 +63,20 @@ module HistoricQuotes
     end
 
     def read_currency_ref(row)
+      row[52..55].strip
+    end
+
+    def read_opening_price(row)
+      converts_to_big_decimal row[56..68].to_i
+    end
+
+    def read_highest_price(row)
+      converts_to_big_decimal row[69..81].to_i
+    end
+
+    def read_lowest_price(row)
+      converts_to_big_decimal row[82..94].to_i
+    end
+
+    def read_average_price(row)
+      converts_to_big_decimal row[95..107].to_i
