@@ -37,3 +37,29 @@ module HistoricQuotes
       day = row[8..9]
       Date.new(year.to_i, month.to_i, day.to_i)
     end
+
+    def read_bdi_code(row)
+      row[10..11].to_i
+    end
+
+    def read_ticker_symbol(row)
+      row[12..23].strip
+    end
+
+    def read_market_type(row)
+      row[24..26].to_i
+    end
+
+    def read_name(row)
+      row[27..38].strip
+    end
+
+    def read_specification(row)
+      row[39..48].strip
+    end
+
+    def read_prazo_termo(row)
+      row[49..51].to_i
+    end
+
+    def read_currency_ref(row)
