@@ -98,3 +98,18 @@ module HistoricQuotes
       row[147..151].to_i
     end
     
+    def read_total_trading_share(row)
+      BigDecimal.new(row[152..169])
+    end
+    
+    def read_trading_volume(row)
+      BigDecimal.new(row[170..187])
+    end
+    
+    def converts_to_big_decimal(price)
+      price_s = price.to_s
+      price_s.insert(price_s.size - 2, '.')
+      BigDecimal.new(price_s)
+    end
+  end
+end
