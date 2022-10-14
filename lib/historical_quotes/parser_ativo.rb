@@ -80,3 +80,21 @@ module HistoricQuotes
 
     def read_average_price(row)
       converts_to_big_decimal row[95..107].to_i
+    end
+    
+    def read_close_price(row)
+      converts_to_big_decimal row[108..120].to_i
+    end
+    
+    def read_best_purchase_price(row)
+      converts_to_big_decimal row[121..133].to_i
+    end
+    
+    def read_best_sell_price(row)
+      converts_to_big_decimal row[134..146].to_i
+    end
+    
+    def read_total_trading(row)
+      row[147..151].to_i
+    end
+    
