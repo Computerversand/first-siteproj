@@ -1,4 +1,5 @@
 require 'date'
 
 module HistoricQuotes
-  class ParserHe
+  class ParserHeader
+    def pa
