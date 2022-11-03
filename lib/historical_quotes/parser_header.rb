@@ -2,4 +2,5 @@ require 'date'
 
 module HistoricQuotes
   class ParserHeader
-    def pa
+    def parse(row)
+   
