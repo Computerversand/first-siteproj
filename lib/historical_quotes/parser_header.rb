@@ -7,4 +7,4 @@ module HistoricQuotes
     end
 
     def read_header(row)
- 
+      header =
