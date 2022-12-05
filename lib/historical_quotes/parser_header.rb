@@ -6,4 +6,5 @@ module HistoricQuotes
       read_header row if row.start_with?("00")
     end
 
-    def read_he
+    def read_header(row)
+ 
