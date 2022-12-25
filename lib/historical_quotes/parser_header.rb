@@ -8,4 +8,4 @@ module HistoricQuotes
 
     def read_header(row)
       header = Header.new
-      hea
+      header.filename = read
