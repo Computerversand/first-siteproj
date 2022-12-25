@@ -9,4 +9,4 @@ module HistoricQuotes
     def read_header(row)
       header = Header.new
       header.filename = read_filename row
-      header.origin_code = read
+      header.origin_code = read_origin_code row
