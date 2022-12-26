@@ -10,4 +10,4 @@ module HistoricQuotes
       header = Header.new
       header.filename = read_filename row
       header.origin_code = read_origin_code row
-      header.c
+      header.created_date = re
