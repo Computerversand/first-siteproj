@@ -11,4 +11,5 @@ module HistoricQuotes
       header.filename = read_filename row
       header.origin_code = read_origin_code row
       header.created_date = read_created_date row
-      hea
+      header
+    end
