@@ -14,4 +14,5 @@ module HistoricQuotes
       header
     end
 
-    def read_filen
+    def read_filename(row)
+      row[
