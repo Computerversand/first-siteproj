@@ -15,4 +15,5 @@ module HistoricQuotes
     end
 
     def read_filename(row)
-      row[
+      row[02..14].strip
+   
