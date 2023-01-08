@@ -13,3 +13,5 @@ module HistoricQuotes
       header.created_date = read_created_date row
       header
     end
+
+    def read_filen
