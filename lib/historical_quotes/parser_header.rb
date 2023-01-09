@@ -18,4 +18,4 @@ module HistoricQuotes
       row[02..14].strip
     end
 
-    def r
+    def read_origin_code(row
