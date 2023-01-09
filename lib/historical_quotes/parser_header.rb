@@ -19,4 +19,5 @@ module HistoricQuotes
     end
 
     def read_origin_code(row)
-      row[15..2
+      row[15..22].strip
+    
