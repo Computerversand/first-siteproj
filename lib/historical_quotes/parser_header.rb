@@ -22,4 +22,5 @@ module HistoricQuotes
       row[15..22].strip
     end
 
-    def read_created_date(row
+    def read_created_date(row)
+      year = row[
