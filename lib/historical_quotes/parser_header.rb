@@ -22,4 +22,4 @@ module HistoricQuotes
       row[15..22].strip
     end
 
-    def read_c
+    def read_created_date(row
