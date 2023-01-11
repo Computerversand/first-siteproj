@@ -23,4 +23,5 @@ module HistoricQuotes
     end
 
     def read_created_date(row)
-      year = row[
+      year = row[23..26]
+      mo
