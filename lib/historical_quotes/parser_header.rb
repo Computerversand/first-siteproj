@@ -25,4 +25,4 @@ module HistoricQuotes
     def read_created_date(row)
       year = row[23..26]
       month = row[27..28]
- 
+      day = row
