@@ -26,4 +26,4 @@ module HistoricQuotes
       year = row[23..26]
       month = row[27..28]
       day = row[29..30]
-      Date.new(
+      Date.new(year.to_i, month.to
