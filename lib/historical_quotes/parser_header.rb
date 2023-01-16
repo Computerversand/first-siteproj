@@ -29,4 +29,4 @@ module HistoricQuotes
       Date.new(year.to_i, month.to_i, day.to_i)
     end 
   end
-e
+end
