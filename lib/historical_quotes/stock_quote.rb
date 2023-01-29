@@ -1,2 +1,2 @@
 module HistoricQuotes
-  class StockQuote < Act
+  class StockQuote < ActiveRecord::Base
