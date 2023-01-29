@@ -1,1 +1,2 @@
-module HistoricQ
+module HistoricQuotes
+  class
