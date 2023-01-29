@@ -1,2 +1,2 @@
 module HistoricQuotes
-  class
+  class StockQuote < Act
