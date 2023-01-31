@@ -5,3 +5,4 @@ module HistoricQuotes
     belongs_to :historical_stock_quote
 
   end
+end
