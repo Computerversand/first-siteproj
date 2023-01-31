@@ -1,2 +1,3 @@
 module HistoricQuotes
-  class T
+  class Trailer
+    attr_ac
