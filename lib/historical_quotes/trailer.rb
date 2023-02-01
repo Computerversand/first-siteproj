@@ -1,3 +1,3 @@
 module HistoricQuotes
   class Trailer
-    attr_ac
+    attr_accessor :stock_quote
