@@ -1,1 +1,2 @@
-module HistoricQu
+module HistoricQuotes
+  VERSION = 
