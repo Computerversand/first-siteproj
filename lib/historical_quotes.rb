@@ -1,1 +1,1 @@
-require ::File.expand_path('
+require ::File.expand_path('../../config/environ
