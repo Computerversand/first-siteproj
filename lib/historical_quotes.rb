@@ -1,3 +1,3 @@
 require ::File.expand_path('../../config/environment',  __FILE__)
 require 'historical_quotes/stock_quote'
-require 'historica
+require 'historical_quotes/parser_
