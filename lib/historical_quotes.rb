@@ -6,4 +6,4 @@ require 'historical_quotes/parser_header'
 require 'historical_quotes/parser_trailer'
 require 'historical_quotes/header'
 require 'historical_quotes/historical_stock_quote'
-require 'hist
+require 'historical_quotes/
