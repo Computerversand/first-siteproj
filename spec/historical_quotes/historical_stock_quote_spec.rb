@@ -5,4 +5,4 @@ module HistoricQuotes
 
     let(:header) {
       header = Header.new
-      header.
+      header.filename = "COTA.HI
