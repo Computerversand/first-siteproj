@@ -1,4 +1,6 @@
 require 'spec_helper'
 
 module HistoricQuotes
-  describe HistoricalStockQ
+  describe HistoricalStockQuote do
+
+    let(:h
