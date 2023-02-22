@@ -4,4 +4,4 @@ module HistoricQuotes
   describe HistoricalStockQuote do
 
     let(:header) {
-  
+      header = Head
