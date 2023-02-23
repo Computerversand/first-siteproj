@@ -6,4 +6,5 @@ module HistoricQuotes
     let(:header) {
       header = Header.new
       header.filename = "COTA.HIST2003"
-      header.origin_code = "
+      header.origin_code = "BOVESPA"
+      head
