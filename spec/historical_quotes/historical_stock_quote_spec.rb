@@ -6,4 +6,4 @@ module HistoricQuotes
     let(:header) {
       header = Header.new
       header.filename = "COTA.HIST2003"
-      header.orig
+      header.origin_code = "
