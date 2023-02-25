@@ -12,4 +12,5 @@ module HistoricQuotes
     }
 
     let(:trailer) {
-      trailer = Trailer
+      trailer = Trailer.new
+      trail
