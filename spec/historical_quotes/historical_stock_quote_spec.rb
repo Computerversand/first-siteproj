@@ -11,4 +11,5 @@ module HistoricQuotes
       header
     }
 
-    let(
+    let(:trailer) {
+  
