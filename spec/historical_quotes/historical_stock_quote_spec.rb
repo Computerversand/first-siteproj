@@ -12,4 +12,4 @@ module HistoricQuotes
     }
 
     let(:trailer) {
-  
+      trailer = Trailer
