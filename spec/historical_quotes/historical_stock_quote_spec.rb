@@ -8,4 +8,7 @@ module HistoricQuotes
       header.filename = "COTA.HIST2003"
       header.origin_code = "BOVESPA"
       header.created_date = Date.new(2004, 05, 31)
-      he
+      header
+    }
+
+    let(
