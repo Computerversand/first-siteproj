@@ -13,4 +13,5 @@ module HistoricQuotes
 
     let(:trailer) {
       trailer = Trailer.new
-      trailer.stock_quotes_
+      trailer.stock_quotes_qty = 553
+ 
