@@ -17,4 +17,6 @@ module HistoricQuotes
       trailer
     }
 
-    let(:historic) { Historica
+    let(:historic) { HistoricalStockQuote.new }
+
+ 
