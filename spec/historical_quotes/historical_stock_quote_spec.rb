@@ -17,4 +17,4 @@ module HistoricQuotes
       trailer
     }
 
-    let(:hist
+    let(:historic) { Historica
