@@ -15,3 +15,6 @@ module HistoricQuotes
       trailer = Trailer.new
       trailer.stock_quotes_qty = 553
       trailer
+    }
+
+    let(:hist
