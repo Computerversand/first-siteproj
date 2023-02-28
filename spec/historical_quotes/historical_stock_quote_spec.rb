@@ -20,4 +20,4 @@ module HistoricQuotes
     let(:historic) { HistoricalStockQuote.new }
 
     it "should load header data" do
-      his
+      historic.import_he
