@@ -22,4 +22,4 @@ module HistoricQuotes
     it "should load header data" do
       historic.import_header header
 
-      historic.filename.sh
+      historic.filename.should == "COTA.HIS
