@@ -19,4 +19,4 @@ module HistoricQuotes
 
     let(:historic) { HistoricalStockQuote.new }
 
-    it "shou
+    it "should load header 
