@@ -23,4 +23,4 @@ module HistoricQuotes
       historic.import_header header
 
       historic.filename.should == "COTA.HIST2003"
-      histori
+      historic.origin_code.shoul
