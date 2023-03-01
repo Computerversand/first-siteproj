@@ -23,4 +23,5 @@ module HistoricQuotes
       historic.import_header header
 
       historic.filename.should == "COTA.HIST2003"
-      historic.origin_code.shoul
+      historic.origin_code.should == "BOVESPA"
+    
