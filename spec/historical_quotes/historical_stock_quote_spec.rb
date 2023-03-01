@@ -24,4 +24,4 @@ module HistoricQuotes
 
       historic.filename.should == "COTA.HIST2003"
       historic.origin_code.should == "BOVESPA"
-    
+      historic.
