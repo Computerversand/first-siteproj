@@ -24,4 +24,4 @@ module HistoricQuotes
 
       historic.filename.should == "COTA.HIST2003"
       historic.origin_code.should == "BOVESPA"
-      historic.created_date.to_s.s
+      historic.created_date.to_s.should eql Date.new(2
