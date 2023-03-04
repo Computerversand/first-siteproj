@@ -27,4 +27,4 @@ module HistoricQuotes
       historic.created_date.to_s.should eql Date.new(2004, 05, 31).to_s
     end
 
-    it "should load
+    it "should load trailer dat
