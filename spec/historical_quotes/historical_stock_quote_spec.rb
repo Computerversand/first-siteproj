@@ -33,4 +33,5 @@ module HistoricQuotes
       historic.stock_quotes_qty == 553
     end
 
-    it "should be activerecord type"
+    it "should be activerecord type" do
+      historic.sh
