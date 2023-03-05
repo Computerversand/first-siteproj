@@ -34,4 +34,4 @@ module HistoricQuotes
     end
 
     it "should be activerecord type" do
-      historic.sh
+      historic.should be_kind_o
