@@ -30,4 +30,7 @@ module HistoricQuotes
     it "should load trailer data" do
       historic.import_trailer trailer
 
-      historic.stock_quotes_qty 
+      historic.stock_quotes_qty == 553
+    end
+
+  
