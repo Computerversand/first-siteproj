@@ -28,4 +28,6 @@ module HistoricQuotes
     end
 
     it "should load trailer data" do
-      historic.import_traile
+      historic.import_trailer trailer
+
+    
