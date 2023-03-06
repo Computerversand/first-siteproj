@@ -36,4 +36,5 @@ module HistoricQuotes
     it "should be activerecord type" do
       historic.should be_kind_of(ActiveRecord::Base)
     end
-  
+  end
+end
