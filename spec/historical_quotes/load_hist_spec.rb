@@ -15,3 +15,22 @@ module HistoricQuotes
       p_stock_quote.stub(:parse).and_return(StockQuote.new)
       p_stock_quote
     }
+
+    let(:loader) { LoadHist.new parser_header, parser_trailer, parser_stock_quote }
+    let(:header) { double(Header).as_null_object }
+    let(:trailer) { double(Trailer).as_null_object }
+
+    it "should load example file" do
+      File.exists?(@file).should be_true
+    end
+
+    it "should parse the header only one time" do 
+      parser_header.should_receive(:parse).once.and_return(Header.new)
+
+      loader.load @file
+    end
+
+    it "should parse the trailer only one time" do
+      parser_trailer.should_receive(:parse).once.and_return(Trailer.new)
+
+      loader.load @file
