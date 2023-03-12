@@ -65,3 +65,14 @@ module HistoricQuotes
       parser_trailer.stub(:parse).and_return(trailer)
 
       historic = loader.load @file
+      historic.stock_quotes_qty.should == 553
+    end
+
+    it "should persists historical data" do
+      historic = double(HistoricalStockQuote).as_null_object
+      historic.should_receive(:save).once
+
+      loader.persist historic
+    end
+  end
+end
