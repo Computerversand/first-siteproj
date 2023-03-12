@@ -48,3 +48,20 @@ module HistoricQuotes
       historic = loader.load @file
       
       historic.stock_quotes.size.should == 2
+      historic.stock_quotes[0].ticker_symbol.should == "VALE3"
+      historic.stock_quotes[1].ticker_symbol.should == "VALE5T"
+    end
+
+    it "should load header after reading the file" do
+      header.stub(:filename).and_return("COTAHIST.2003")
+      parser_header.stub(:parse).and_return(header)
+
+      historic = loader.load @file
+      historic.filename.should == "COTAHIST.2003"
+    end
+
+    it "should load trailer after reading the file" do
+      trailer.stub(:stock_quotes_qty).and_return(553)
+      parser_trailer.stub(:parse).and_return(trailer)
+
+      historic = loader.load @file
