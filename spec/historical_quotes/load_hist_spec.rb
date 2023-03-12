@@ -34,3 +34,17 @@ module HistoricQuotes
       parser_trailer.should_receive(:parse).once.and_return(Trailer.new)
 
       loader.load @file
+    end
+
+    it "should parse quotes two times" do
+      parser_stock_quote.should_receive(:parse).twice
+
+      loader.load @file
+    end
+
+    it "should return two stock quotes after reading the file" do
+      loader = LoadHist.new parser_header, parser_trailer, ParserStockQuote.new
+
+      historic = loader.load @file
+      
+      historic.stock_quotes.size.should == 2
