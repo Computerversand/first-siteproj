@@ -1,4 +1,5 @@
 require 'spec_helper'
 
 module HistoricQuotes
-  describe ParserHeader
+  describe ParserHeader do
+    b
