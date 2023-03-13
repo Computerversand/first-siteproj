@@ -1,3 +1,4 @@
 require 'spec_helper'
 
-module Histor
+module HistoricQuotes
+  descri
