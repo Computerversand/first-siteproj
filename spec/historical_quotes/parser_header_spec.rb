@@ -8,4 +8,4 @@ module HistoricQuotes
       @header = parser.parse sample_row
     end
 
-    it "shoul
+    it "should return nil if
