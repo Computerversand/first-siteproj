@@ -5,4 +5,4 @@ module HistoricQuotes
     before(:each) do
       sample_row = "00COTAHIST.2003BOVESPA 20040531                                                                                                                                                                                                                      "
       parser = ParserHeader.new
-      @head
+      @header = parser.pa
