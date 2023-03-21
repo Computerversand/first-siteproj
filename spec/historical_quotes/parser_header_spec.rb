@@ -7,3 +7,5 @@ module HistoricQuotes
       parser = ParserHeader.new
       @header = parser.parse sample_row
     end
+
+    it "shoul
