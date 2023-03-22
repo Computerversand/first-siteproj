@@ -8,4 +8,5 @@ module HistoricQuotes
       @header = parser.parse sample_row
     end
 
-    it "should return nil if the line does not start with 00" 
+    it "should return nil if the line does not start with 00" do
+      sampl
