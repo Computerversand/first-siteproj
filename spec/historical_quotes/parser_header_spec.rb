@@ -9,4 +9,4 @@ module HistoricQuotes
     end
 
     it "should return nil if the line does not start with 00" do
-      sample_row = "05COTAHIST.2003BOVESPA 20040531                                                                                                                                          
+      sample_row = "05COTAHIST.2003BOVESPA 20040531                                                                                                                                                             
