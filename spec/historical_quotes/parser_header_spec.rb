@@ -13,4 +13,7 @@ module HistoricQuotes
       parser = ParserHeader.new
       header = parser.parse sample_row
 
-      header.should be_
+      header.should be_nil
+    end
+
+    it "sho
