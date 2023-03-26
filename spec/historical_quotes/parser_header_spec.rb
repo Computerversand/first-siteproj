@@ -16,4 +16,4 @@ module HistoricQuotes
       header.should be_nil
     end
 
-    it "sho
+    it "should extract header f
