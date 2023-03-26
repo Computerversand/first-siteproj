@@ -16,4 +16,5 @@ module HistoricQuotes
       header.should be_nil
     end
 
-    it "should extract header f
+    it "should extract header filename" do
+      
