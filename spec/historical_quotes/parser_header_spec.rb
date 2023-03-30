@@ -17,4 +17,4 @@ module HistoricQuotes
     end
 
     it "should extract header filename" do
-      
+      @header.filename.shou
