@@ -20,4 +20,5 @@ module HistoricQuotes
       @header.filename.should == "COTAHIST.2003"
     end
 
-    it "should extract header 
+    it "should extract header origin code" do
+      
