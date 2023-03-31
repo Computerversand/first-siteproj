@@ -21,4 +21,4 @@ module HistoricQuotes
     end
 
     it "should extract header origin code" do
-      @header.ori
+      @header.origin_code.should 
