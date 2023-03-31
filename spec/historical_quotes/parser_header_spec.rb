@@ -22,4 +22,6 @@ module HistoricQuotes
 
     it "should extract header origin code" do
       @header.origin_code.should == "BOVESPA"
+    end
     
+   
