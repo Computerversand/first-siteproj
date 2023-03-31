@@ -18,4 +18,6 @@ module HistoricQuotes
 
     it "should extract header filename" do
       @header.filename.should == "COTAHIST.2003"
-  
+    end
+
+    it "shou
