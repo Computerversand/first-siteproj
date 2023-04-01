@@ -25,4 +25,4 @@ module HistoricQuotes
     end
     
     it "should extract header created date" do
-      @header.created_date.t
+      @header.created_date.to_s.should eq
