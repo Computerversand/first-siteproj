@@ -12,3 +12,16 @@ module HistoricQuotes
     it "should return nil if line does not start with 01" do
       sample_row = "052003021202VALE3      |010VALE R DOCE|ON       |  1R$ |000000001050100000000105010000000010250000000001036800000000103210000000010321000000001043800142000000000000069500000000000720641400000000000000009999123100000010000000000000BRVALEACNOR0159"
       parser = ParserStockQuote.new
+      stock_quote = parser.parse sample_row
+
+      stock_quote.should be_nil
+    end
+
+    it "should extract stock quotes with a date" do
+      @stock_quote.date.to_s.should eql Date.new(2003, 2, 12).to_s
+    end
+
+    it "should extract stock quotes with code BDI" do
+      @stock_quote.bdi_code.should == 02
+    end
+    
