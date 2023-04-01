@@ -24,4 +24,4 @@ module HistoricQuotes
       @header.origin_code.should == "BOVESPA"
     end
     
-    it "should extract he
+    it "should extract header created date"
