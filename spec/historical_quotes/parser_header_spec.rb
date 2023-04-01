@@ -25,4 +25,6 @@ module HistoricQuotes
     end
     
     it "should extract header created date" do
-      @header.created_date.to_s.should eql Date.new(2004, 05, 3
+      @header.created_date.to_s.should eql Date.new(2004, 05, 31).to_s 
+    end
+  end
