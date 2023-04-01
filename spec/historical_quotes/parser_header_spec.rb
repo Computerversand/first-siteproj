@@ -25,4 +25,4 @@ module HistoricQuotes
     end
     
     it "should extract header created date" do
-      @header.c
+      @header.created_date.t
