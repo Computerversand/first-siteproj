@@ -28,3 +28,4 @@ module HistoricQuotes
       @header.created_date.to_s.should eql Date.new(2004, 05, 31).to_s 
     end
   end
+end
