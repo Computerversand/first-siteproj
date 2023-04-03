@@ -58,3 +58,21 @@ module HistoricQuotes
     end
 
     it "should extract stock quotes having mininum prices" do
+      @stock_quote.lowest_price.should == 102.50
+    end
+
+    it "should extract stock quotes having average price" do
+      @stock_quote.average_price.should == 103.68
+    end
+
+    it "should extract stock quotes having close price" do
+      @stock_quote.close_price.should == 103.21
+    end
+
+    it "should extract stock quotes having best purchase price" do
+      @stock_quote.best_purchase_price.should == 103.21
+    end
+
+    it "should extract stock quotes having best selling price" do
+      @stock_quote.best_sell_price.should == 104.38
+    end
