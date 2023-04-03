@@ -47,3 +47,14 @@ module HistoricQuotes
 
     it "should extract stock quotes having currency reference" do
       @stock_quote.currency_ref.should == "R$ |"
+    end
+
+    it "should extract stock quotes having opening price" do
+      @stock_quote.opening_price.should == 105.01
+    end
+
+    it "should extract stock quotes having maximum price" do
+      @stock_quote.highest_price.should == 105.01
+    end
+
+    it "should extract stock quotes having mininum prices" do
