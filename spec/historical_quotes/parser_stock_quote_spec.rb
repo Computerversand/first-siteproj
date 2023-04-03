@@ -25,3 +25,25 @@ module HistoricQuotes
       @stock_quote.bdi_code.should == 02
     end
     
+    it "should extract stock quotes having code" do
+      @stock_quote.ticker_symbol.should == "VALE3      |"
+    end
+    
+    it "should extract stock quotes having market type" do
+      @stock_quote.market_type.should == 10
+    end
+
+    it "should extract stock quotes with name" do
+      @stock_quote.name.should == "VALE R DOCE|"
+    end
+
+    it "should extract stock quotes with specification" do
+      @stock_quote.specification.should == "ON       |"
+    end
+
+    it "should extract stock quotes having due dates from the market" do
+      @stock_quote.prazo_termo.should == 1
+    end
+
+    it "should extract stock quotes having currency reference" do
+      @stock_quote.currency_ref.should == "R$ |"
