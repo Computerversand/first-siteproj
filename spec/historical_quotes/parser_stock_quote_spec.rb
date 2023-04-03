@@ -76,3 +76,16 @@ module HistoricQuotes
     it "should extract stock quotes having best selling price" do
       @stock_quote.best_sell_price.should == 104.38
     end
+
+    it "should extract stock quotes having total trading" do
+      @stock_quote.total_trading.should == 142
+    end
+
+    it "should extract stock quotes having total trading shares" do
+      @stock_quote.total_trading_share.should == 69500
+    end
+
+    it "should extract stock quotes having trading volume" do
+      @stock_quote.trading_volume.should == 720641400
+    end
+  end
