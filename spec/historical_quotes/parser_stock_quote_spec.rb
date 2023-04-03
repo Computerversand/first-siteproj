@@ -89,3 +89,4 @@ module HistoricQuotes
       @stock_quote.trading_volume.should == 720641400
     end
   end
+end
