@@ -15,3 +15,10 @@ module HistoricQuotes
       trailer = parser.parse sample_row
 
       trailer.should be_nil
+    end
+
+    it "should extract number of stock quotes in the file" do
+      @trailer.stock_quotes_qty.should == 99999999999
+    end
+  end
+end
