@@ -1,1 +1,1 @@
-requi
+require 'historical_quotes'
